@@ -2890,7 +2890,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.025);
+			background-color:#F39E68 ;
 		}
 
 		input[type="submit"]:active,
@@ -4147,4 +4147,18 @@ center;*/
 
 	nav a:active{
 		background-color: #fff;;
+	}
+
+	.send-btn:hover {
+		background-color: #F39E68 ;
+	}
+	.image-gallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		padding-bottom: 1.6em;
+     
+	}
+	.image-gallery img{
+		padding: 30px 0px 30px 30px;
 	}

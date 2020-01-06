@@ -33,7 +33,7 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="#one">About Me</a></li>
 								<li><a href="services.html">Services</a></li>
-								<li><a href="#footer">Contact</a></li>
+								<li><a href="#">Contact</a></li>
 					
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -147,24 +147,38 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<form action="https://formspree.io/mrgewyon" method="POST">
-                                <div><label for="name">Name</label>
-                                <input type="text" name="name"></div>
-                                 <br>
+                                <label for="name">Name</label>
+                                <input type="text" name="name">
+ 
+  <label for="email">Email</label>
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
+							<form method="post" action="https://formspree.io/mrgewyon">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="_replyto">
-										<br>
+										<input type="email" name="email" id="email" />
+                                    </div>
+                                    <div class="field">
 										<label for="subject">Subject</label>
 										<input type="subject" name="subject" id="subject" />
-										<br>
-										<br>
-                                         <label for="message">Message</label>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="4"></textarea>
-										<br>
-                                            <input type="submit" value="Send" class="send-btn">
-  
-									
-</form>
-							
+                                    </div>
+                                    
+                                 
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message"/></li>
+								</ul>
+							</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
 									Los Angeles, Ca
